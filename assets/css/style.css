@@ -7,7 +7,7 @@ body {
 
 /* HEADER */
 header {
-  background-color: rgb(15, 107, 107);
+  background: linear-gradient(0deg, rgb(15, 107, 107), rgb(23, 185, 185));
   max-width: 80%;
   margin: auto;
   margin-top: 20px;
