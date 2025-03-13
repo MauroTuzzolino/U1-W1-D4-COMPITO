@@ -1,0 +1,249 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Poppins;
+  background-image: url(../img/sfondo.png);
+}
+
+/* HEADER */
+header {
+  background-color: rgb(15, 107, 107);
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header div img {
+  height: 70px;
+}
+
+header h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header p {
+  line-height: 20px;
+}
+
+/* MAIN */
+main {
+  background-color: white;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding-bottom: 30px;
+}
+
+main h1 {
+  font-weight: bold;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+main aside {
+  color: rgb(167, 166, 166);
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main span {
+  color: rgb(184, 11, 89);
+  font-weight: bold;
+}
+
+main ul {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main ul li {
+  list-style-type: disc;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 5px;
+  margin-left: 27px;
+  padding-right: 20px;
+}
+
+.tag-span {
+  color: black;
+  font-weight: normal;
+  background-color: lightgray;
+  border: 1px gray solid;
+  border-radius: 7px;
+}
+
+main ol {
+  margin-bottom: 20px;
+  list-style-type: decimal;
+}
+
+main ol li {
+  margin-left: 27px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+main h6 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th,
+td {
+  border: 1px rgb(255, 255, 255) solid;
+  padding: 15px;
+}
+
+th {
+  background-color: rgb(18, 107, 197);
+  color: white;
+  padding-top: 20px;
+  vertical-align: bottom;
+}
+
+table tr:nth-child(2),
+table tr:nth-child(4) {
+  background-color: rgb(198, 198, 198);
+}
+
+table tr:nth-child(5) {
+  border-bottom: 2px rgb(18, 107, 197) solid;
+}
+
+#fake-link {
+  color: rgb(87, 187, 190);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+#video-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+iframe {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.news {
+  background-color: lightgray;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.news h4 {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.news form {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.news form input {
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px gray dashed;
+}
+
+.news form button {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(18, 107, 197);
+  border: none;
+}
+
+main h4 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.extra {
+  background-color: lightgray;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.extra p:first-child {
+  padding-top: 5px;
+  color: rgb(87, 187, 190);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.extra p:nth-child(3) {
+  text-align: right;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+/* FOOTER */
+footer {
+  max-width: 80%;
+  background: linear-gradient(0deg, rgb(2, 51, 51), rgb(15, 107, 107));
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+footer p:first-child {
+  margin-bottom: 20px;
+}
+
+footer span {
+  color: rgb(201, 38, 111);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: 500;
+}
